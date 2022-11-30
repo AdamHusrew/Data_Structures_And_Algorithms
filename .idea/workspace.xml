@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65ff9ed2-ff7e-4647-934d-b447af8aca18" name="Changes" comment="Collections Review Started">
-      <change afterPath="$PROJECT_DIR$/M3-CollectionsReview/src/main/java/org/cydeo/ArrayListReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M3-CollectionsReview/src/main/java/org/cydeo/MapReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M3-CollectionsReview/src/main/java/org/cydeo/SetReview.java" afterDir="false" />
+    <list default="true" id="65ff9ed2-ff7e-4647-934d-b447af8aca18" name="Changes" comment="Collections Review Done">
+      <change afterPath="$PROJECT_DIR$/M3-LinkedList/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/MySinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/MySinglyLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +78,7 @@
       <workItem from="1669119969349" duration="7187000" />
       <workItem from="1669226785796" duration="8000" />
       <workItem from="1669560948520" duration="2765000" />
-      <workItem from="1669618243897" duration="7247000" />
+      <workItem from="1669618243897" duration="16837000" />
     </task>
     <task id="LOCAL-00001" summary="Collections Review Started">
       <created>1669618633350</created>
@@ -83,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669618633350</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Collections Review Done">
+      <created>1669628934699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669628934699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Collections Review Started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections Review Started" />
+    <MESSAGE value="Collections Review Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections Review Done" />
   </component>
 </project>
