@@ -17,6 +17,16 @@ public class MySinglyLinkedListDemo {
         System.out.println("-------------indexOf()------------");
         System.out.println(list.indexOf(2));
 
+        System.out.println("-------------KthElement()------------");
+        System.out.println(list.getKthItemFromLast(10));
+
+        System.out.println("-------------removeKthElement()------------");
+        list.removeKthItemFromLast(10);
+        list.printNodes();
+
+        System.out.println("-------------KthElement()------------");
+        System.out.println(list.getKthItemFromLast(10));
+
 
 
     }

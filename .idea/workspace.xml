@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65ff9ed2-ff7e-4647-934d-b447af8aca18" name="Changes" comment="Collections Review Done">
-      <change afterPath="$PROJECT_DIR$/M3-LinkedList/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/LinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/MySinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/MySinglyLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/Node.java" afterDir="false" />
+    <list default="true" id="65ff9ed2-ff7e-4647-934d-b447af8aca18" name="Changes" comment="Linked List Done">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4-StackAndRecursion/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4-StackAndRecursion/src/main/java/org/cydeo/ExprBalanceCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4-StackAndRecursion/src/main/java/org/cydeo/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4-StackAndRecursion/src/main/java/org/cydeo/MyStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4-StackAndRecursion/src/main/java/org/cydeo/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M4-StackAndRecursion/src/main/java/org/cydeo/StackNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/FindCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/MergeTwoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/MergeTwoSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/MySinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/PrintMiddleNodeOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/ReverseTheNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/StackNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo/SunSetTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/MySinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/MySinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/MySinglyLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/M3-LinkedList/src/main/java/org/cydeo/MySinglyLinkedListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,15 +72,25 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "/Users/resul/IdeaProjects/Data_Structures_And_Algorithms/M5-ProblemSolvng/src/main/java/org/cydeo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/M5-ProblemSolvng/src/main/java/org/cydeo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.cydeo" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +103,8 @@
       <workItem from="1669119969349" duration="7187000" />
       <workItem from="1669226785796" duration="8000" />
       <workItem from="1669560948520" duration="2765000" />
-      <workItem from="1669618243897" duration="16837000" />
+      <workItem from="1669618243897" duration="24750000" />
+      <workItem from="1669877974376" duration="17300000" />
     </task>
     <task id="LOCAL-00001" summary="Collections Review Started">
       <created>1669618633350</created>
@@ -94,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669628934699</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Linked List Done">
+      <created>1669800769609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669800769609</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Collections Review Started" />
     <MESSAGE value="Collections Review Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections Review Done" />
+    <MESSAGE value="Linked List Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked List Done" />
   </component>
 </project>

@@ -2,8 +2,8 @@ package org.cydeo;
 
 public class MySinglyLinkedList {
 
-    private Node head;
-    private Node tail;
+    public Node head;
+    public Node tail;
     private int size = 0;
 
     public void add(int data){
@@ -12,12 +12,11 @@ public class MySinglyLinkedList {
         if (isEmpty()){
             head = node;
             tail = node;
-            size += 1;
         }else{
             tail.next = node;
             tail = tail.next;
-            size += 1;
         }
+        size += 1;
 
 
     }
@@ -34,6 +33,7 @@ public class MySinglyLinkedList {
         size++;
 
     }
+
     public int indexOf(int id){
         if (isEmpty())
             return -1;
@@ -53,21 +53,24 @@ public class MySinglyLinkedList {
     }
 
     public int getKthItemFromLast(int k){
-        Node ptr1 = head;
-        Node ptr2 = head;
+        // create two pointers
+        Node ptr1=head;
+        Node ptr2=head;
+        // move ptr2 k-1 times
 
         for (int i = 0; i < k-1; i++) {
-            ptr2 = ptr2.next;
+            ptr2=ptr2.next;
         }
-
-        while (ptr2 != null){
-            ptr1 = ptr1.next;
-            ptr2 = ptr2.next;
+        // move both pointers until ptr2 hits the last element
+        while(ptr2.next!=null){
+            ptr1=ptr1.next;
+            ptr2=ptr2.next;
         }
-
+        // ptr1 is on the kth element from the last
         return ptr1.id;
-
     }
+
+
 
     public void removeKthItemFromLast(int k){
         Node prev = head;
@@ -129,6 +132,7 @@ public class MySinglyLinkedList {
 
 
     }
+
     public void deleteById(int id){
 
         Node prev = head;
@@ -159,7 +163,6 @@ public class MySinglyLinkedList {
         }
 
     }
-
     private void delete(Node node){
 
         Node prev = head;
@@ -195,6 +198,7 @@ public class MySinglyLinkedList {
     public int size() {
         return size;
     }
+
     public void printNodes(){
         Node current = head;
         while (current != null){
@@ -207,6 +211,11 @@ public class MySinglyLinkedList {
         return head == null;
     }
 
+    public Node getHead() {
+        return head;
+    }
 
-
+    public Node getTail() {
+        return tail;
+    }
 }
