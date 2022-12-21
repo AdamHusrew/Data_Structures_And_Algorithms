@@ -1,6 +1,6 @@
 package com.cydeo;
 
-public class Main {
+public class TreeApp {
     public static void main(String[] args) {
        MyTree tree = new MyTree();
        int[] array = {3,1,7,4,9,3,0,232,2,4,34};
@@ -36,6 +36,10 @@ public class Main {
         System.out.println("Height of the Tree: " + tree.height(tree.root) );
 
         System.out.println("Number of Nodes: " + tree.countNodes(tree.root));
+
+        System.out.println("Sum of Nodes Depths: " + tree.sumOfNodesDepths(tree.root,0));
+
+        System.out.println("Sum of Nodes Values: " + tree.sumOfNodesValues(tree.root,0));
 
 
 

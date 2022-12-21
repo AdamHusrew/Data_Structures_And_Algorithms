@@ -154,6 +154,22 @@ public class MyTree {
         return 1 + countNodes(root.left) + countNodes(root.right);
     }
 
+    public int sumOfNodesDepths(TNode node, int a){
+        if (node == null) return 0;
+        return a + sumOfNodesDepths(node.left,a+1) + sumOfNodesDepths(node.right, a+1);
+    }
+
+    public int sumOfNodesValues(TNode node, int a){
+        if (node == null)
+            return 0;
+
+        a += sumOfNodesValues(node.left,node.value);
+        a += sumOfNodesValues(node.right,node.value);
+
+        return a ;//+ sumOfNodesValues(node.left,node.value) + sumOfNodesValues(node.right,node.value);
+
+    }
+
 
 
 
