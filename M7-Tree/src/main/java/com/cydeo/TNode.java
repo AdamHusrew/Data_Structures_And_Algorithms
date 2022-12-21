@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-@Builder
+
 @EqualsAndHashCode
 @Data
 public class TNode {

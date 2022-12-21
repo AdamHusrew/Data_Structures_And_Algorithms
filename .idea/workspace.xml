@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65ff9ed2-ff7e-4647-934d-b447af8aca18" name="Changes" comment="Queues And Hashing Done">
-      <change afterPath="$PROJECT_DIR$/M6-QueuesAndHashing/src/main/java/com/cydeo/ReverseFirstKElementProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M7-Tree/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/MyTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/TNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="65ff9ed2-ff7e-4647-934d-b447af8aca18" name="Changes" comment="Tree Started">
+      <change afterPath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/Trunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/VisualizeTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M6-QueuesAndHashing/src/main/java/com/cydeo/MyQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/M6-QueuesAndHashing/src/main/java/com/cydeo/MyQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/MyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/MyTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/TNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/M7-Tree/src/main/java/com/cydeo/TNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,7 @@
       <workItem from="1669618243897" duration="24750000" />
       <workItem from="1669877974376" duration="24652000" />
       <workItem from="1670264494772" duration="1360000" />
-      <workItem from="1671552535889" duration="1423000" />
+      <workItem from="1671552535889" duration="9167000" />
     </task>
     <task id="LOCAL-00001" summary="Collections Review Started">
       <created>1669618633350</created>
@@ -131,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670168165482</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tree Started">
+      <created>1671556337124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671556337124</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +158,7 @@
     <MESSAGE value="Linked List Done" />
     <MESSAGE value="Problem Solving Day Done" />
     <MESSAGE value="Queues And Hashing Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queues And Hashing Done" />
+    <MESSAGE value="Tree Started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree Started" />
   </component>
 </project>
