@@ -18,6 +18,7 @@
         <module>M6-QueuesAndHashing</module>
         <module>M7-Tree</module>
         <module>M8-Heap</module>
+        <module>M9-SearchAlgorithms</module>
     </modules>
 
     <properties>

@@ -81,6 +81,8 @@ public class MyHeap {
         }
     }
 
+
+
     public int parentIndex(int index) { return (index-1)/2;}
     public boolean hasLeftChild(int index){ return  leftChildIndex(index)<=size;}
     public boolean hasRightChild(int index){ return  rightChildIndex(index)<=size;}
